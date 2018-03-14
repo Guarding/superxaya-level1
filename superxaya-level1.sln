@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "superxaya-level1.Plugins", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "superxaya-level1.Editor.Plugins", "superxaya-level1.Editor.Plugins.csproj", "{7B345B2B-7120-682D-CB1F-1913FD1A7CB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "superxaya-level1.Editor", "superxaya-level1.Editor.csproj", "{CEABC884-103C-1858-3565-8B4AC1CFFFAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{7B345B2B-7120-682D-CB1F-1913FD1A7CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B345B2B-7120-682D-CB1F-1913FD1A7CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B345B2B-7120-682D-CB1F-1913FD1A7CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEABC884-103C-1858-3565-8B4AC1CFFFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEABC884-103C-1858-3565-8B4AC1CFFFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEABC884-103C-1858-3565-8B4AC1CFFFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEABC884-103C-1858-3565-8B4AC1CFFFAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
