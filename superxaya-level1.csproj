@@ -293,10 +293,22 @@
   <ItemGroup>
     <Compile Include="Assets\CopCar.cs" />
     <Compile Include="Assets\LoaderSplash.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\carManager.cs" />
     <Compile Include="Assets\Scripts\doorTrigger.cs" />
     <Compile Include="Assets\Scripts\MiniMap.cs" />
+=======
+    <Compile Include="Assets\MiniMap.cs" />
+    <Compile Include="Assets\Scripts\AccelerateAndBrake.cs" />
+    <Compile Include="Assets\Scripts\CameraMove.cs" />
+    <Compile Include="Assets\Scripts\CarMovement.cs" />
+    <Compile Include="Assets\Scripts\CollitionDetect.cs" />
+    <Compile Include="Assets\Scripts\GearInit.cs" />
+    <Compile Include="Assets\Scripts\Instantiate.cs" />
+>>>>>>> a0176221e46373e4716a26468d1f3307fb50cdfc
     <Compile Include="Assets\Scripts\SplashScreen2.cs" />
+    <Compile Include="Assets\Scripts\SteeringWheel.cs" />
+    <Compile Include="Assets\Scripts\WinCollitionDetect.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Simple city plain\Read_me.txt" />
@@ -308,6 +320,7 @@
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+    <None Include="Assets\sky5X\README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
