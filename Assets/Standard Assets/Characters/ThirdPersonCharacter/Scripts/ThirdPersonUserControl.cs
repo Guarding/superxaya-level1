@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityStandardAssets.CrossPlatformInput;
 
 namespace UnityStandardAssets.Characters.ThirdPerson
@@ -12,10 +13,14 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_CamForward;             // The current forward direction of the camera
         private Vector3 m_Move;
         private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
-
+        public Text gold_text;
+        public int count_gold;
         
         private void Start()
-        {
+        {   
+
+            count_gold = 0;
+            setGoldText();
             // get the transform of the main camera
             if (Camera.main != null)
             {
@@ -70,6 +75,19 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             // pass all parameters to the character control script
             m_Character.Move(m_Move, crouch, m_Jump);
             m_Jump = false;
+        }
+        void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.CompareTag("Gold"))
+           {
+               other.gameObject.SetActive(false);
+               count_gold++;
+                setGoldText();
+           }
+        }
+        void setGoldText()
+        {
+            gold_text.text = "Golds: " + count_gold.ToString();
         }
     }
 }

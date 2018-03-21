@@ -305,6 +305,10 @@
       <Project>{EEA2E98C-8F9D-15BB-064D-1298B4D1D01C}</Project>
       <Name>superxaya-level1</Name>
     </ProjectReference>
+    <ProjectReference Include="superxaya-level1.unityproj">
+      <Project>{EEA2E98C-8F9D-15BB-064D-1298B4D1D01C}</Project>
+      <Name>superxaya-level1</Name>
+    </ProjectReference>
     <ProjectReference Include="superxaya-level1.Editor.Plugins.csproj">
       <Project>{7B345B2B-7120-682D-CB1F-1913FD1A7CB8}</Project>
       <Name>superxaya-level1.Editor.Plugins</Name>
@@ -314,7 +318,48 @@
     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Glass Refraction\Glass-Stained-BumpDistort.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Glass Refraction\Glass-Stained-BumpSpecDistort.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Image Based\ColorCorrectionEffect.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Image Based\ColorCorrectionEffect_26.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Image Based\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Image Based\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Image Based\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Image Based\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Image Based\EdgeDetectX.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Image Based\GlowEffectDownsample.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Image Based\GlowEffectDownsample_26.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Image Based\GrayscaleEffect.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Image Based\MotionBlur.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Image Based\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Image Based\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Image Based\SSAOShader.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Image Based\SepiaToneEffect.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Image Based\TwirlEffect.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Image Based\VortexEffect.shader" />
+    <None Include="Assets\RaceTrack\Pro Standard Assets\Water\Sources\FX-Water.shader" />
+    <None Include="Assets\RaceTrack\Shaders\Alpha-Diffuse-ZWrite.shader" />
+    <None Include="Assets\RaceTrack\Shaders\Alpha-VertexLitGlow02.shader" />
+    <None Include="Assets\RaceTrack\Shaders\AlphaTest-Diffuse-GEqual.shader" />
+    <None Include="Assets\RaceTrack\Shaders\GlassBuilding.shader" />
+    <None Include="Assets\RaceTrack\Shaders\GlassReflect.shader" />
+    <None Include="Assets\RaceTrack\Shaders\Glassreflect2D.shader" />
+    <None Include="Assets\RaceTrack\Shaders\LightMappedDiffusetDetail.shader" />
+    <None Include="Assets\RaceTrack\Shaders\LightsEmmissive.shader" />
+    <None Include="Assets\RaceTrack\Shaders\MirrorReflectionLit.shader" />
+    <None Include="Assets\RaceTrack\Shaders\Normal-BumpSpec_EnvLightmapped.shader" />
+    <None Include="Assets\RaceTrack\Shaders\PolyTerrain\FirstPassLightmap.shader" />
+    <None Include="Assets\RaceTrack\Shaders\PolyTerrain\polysplatting.cginc" />
+    <None Include="Assets\RaceTrack\Shaders\ShadowProjection.shader" />
+    <None Include="Assets\RaceTrack\Shaders\Skidmarks.shader" />
+    <None Include="Assets\RaceTrack\Shaders\TransparentLightMappedVertexLiZWrite.shader" />
+    <None Include="Assets\RaceTrack\Textures\VFX\ShadowProjection.shader" />
+    <None Include="Assets\RaceTrack\~AlternatePhysicsModel\Source Assets\Cars\Car.shader" />
+    <None Include="Assets\RaceTrack\~AlternatePhysicsModel\Source Assets\Skidmarks\Skidmarks.shader" />
     <None Include="Assets\Simple city plain\Read_me.txt" />
+    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
